@@ -1,0 +1,347 @@
+type: ENVELOPE_TYPE_TX
+tx.sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.fee: 7800
+tx.seqNum: 46489056724385793
+tx.timeBounds._present: true
+tx.timeBounds.minTime: 1535756672 (2018-08-31 23:04:32.000000+00:00 (UTC))
+tx.timeBounds.maxTime: 1567292672 (2019-08-31 23:04:32.000000+00:00 (UTC))
+tx.memo.type: MEMO_TEXT
+tx.memo.text: "Enjoy this transaction"
+tx.operations.len: 39
+tx.operations[0].sourceAccount._present: true
+tx.operations[0].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[0].body.type: PAYMENT
+tx.operations[0].body.paymentOp.destination: GBAF6NXN3DHSF357QBZLTBNWUTABKUODJXJYYE32ZDKA2QBM2H33IK6O
+tx.operations[0].body.paymentOp.asset: USD:GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[0].body.paymentOp.amount: 400004000 (40.0004)
+tx.operations[1].sourceAccount._present: true
+tx.operations[1].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[1].body.type: PATH_PAYMENT_STRICT_RECEIVE
+tx.operations[1].body.pathPaymentStrictReceiveOp.sendAsset: USD:GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[1].body.pathPaymentStrictReceiveOp.sendMax: 100000000 (10)
+tx.operations[1].body.pathPaymentStrictReceiveOp.destination: GBAF6NXN3DHSF357QBZLTBNWUTABKUODJXJYYE32ZDKA2QBM2H33IK6O
+tx.operations[1].body.pathPaymentStrictReceiveOp.destAsset: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[1].body.pathPaymentStrictReceiveOp.destAmount: 51250000 (5.125)
+tx.operations[1].body.pathPaymentStrictReceiveOp.path.len: 3
+tx.operations[1].body.pathPaymentStrictReceiveOp.path[0]: Hello:GD3RXMK2GHSXXEHPBZY5IL7VW5BXQEDJMCD4KVMXOH2GRFKDGZXR5PFO
+tx.operations[1].body.pathPaymentStrictReceiveOp.path[1]: native
+tx.operations[1].body.pathPaymentStrictReceiveOp.path[2]: MOEW:GBR765FQTCAJLLJGZVYLXCFAOZI6ORTHPDPOOHJOHFRZ5GHNVYGK4IFM
+tx.operations[2].sourceAccount._present: true
+tx.operations[2].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[2].body.type: MANAGE_SELL_OFFER
+tx.operations[2].body.manageSellOfferOp.selling: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[2].body.manageSellOfferOp.buying: USD:GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[2].body.manageSellOfferOp.amount: 1001230000 (100.123)
+tx.operations[2].body.manageSellOfferOp.price.n: 7
+tx.operations[2].body.manageSellOfferOp.price.d: 1
+tx.operations[2].body.manageSellOfferOp.offerID: 12345
+tx.operations[3].sourceAccount._present: true
+tx.operations[3].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[3].body.type: CREATE_PASSIVE_SELL_OFFER
+tx.operations[3].body.createPassiveSellOfferOp.selling: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[3].body.createPassiveSellOfferOp.buying: USD:GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[3].body.createPassiveSellOfferOp.amount: 1001230000 (100.123)
+tx.operations[3].body.createPassiveSellOfferOp.price.n: 71
+tx.operations[3].body.createPassiveSellOfferOp.price.d: 10
+tx.operations[4].sourceAccount._present: true
+tx.operations[4].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[4].body.type: SET_OPTIONS
+tx.operations[4].body.setOptionsOp.inflationDest._present: true
+tx.operations[4].body.setOptionsOp.inflationDest: GCVAZXCGX3HLHZ6P5WKEPE3U2YJMTLMPTZJFGY67MTNPSOA4COKVJ6AF
+tx.operations[4].body.setOptionsOp.clearFlags._present: true
+tx.operations[4].body.setOptionsOp.clearFlags: 3 (AuthorizationFlag.AUTHORIZATION_REVOCABLE|AUTHORIZATION_REQUIRED)
+tx.operations[4].body.setOptionsOp.setFlags._present: true
+tx.operations[4].body.setOptionsOp.setFlags: 3 (AuthorizationFlag.AUTHORIZATION_REVOCABLE|AUTHORIZATION_REQUIRED)
+tx.operations[4].body.setOptionsOp.masterWeight._present: true
+tx.operations[4].body.setOptionsOp.masterWeight: 255
+tx.operations[4].body.setOptionsOp.lowThreshold._present: true
+tx.operations[4].body.setOptionsOp.lowThreshold: 1
+tx.operations[4].body.setOptionsOp.medThreshold._present: true
+tx.operations[4].body.setOptionsOp.medThreshold: 2
+tx.operations[4].body.setOptionsOp.highThreshold._present: true
+tx.operations[4].body.setOptionsOp.highThreshold: 3
+tx.operations[4].body.setOptionsOp.homeDomain._present: true
+tx.operations[4].body.setOptionsOp.homeDomain: "stellar.org"
+tx.operations[4].body.setOptionsOp.signer._present: true
+tx.operations[4].body.setOptionsOp.signer.key: GAO3YIWNOBP4DN3ORDXYXTUMLF5S54OK4PKAFCWE23TTOML4COGQOIYA
+tx.operations[4].body.setOptionsOp.signer.weight: 255
+tx.operations[5].sourceAccount._present: false
+tx.operations[5].body.type: SET_OPTIONS
+tx.operations[5].body.setOptionsOp.inflationDest._present: false
+tx.operations[5].body.setOptionsOp.clearFlags._present: false
+tx.operations[5].body.setOptionsOp.setFlags._present: false
+tx.operations[5].body.setOptionsOp.masterWeight._present: false
+tx.operations[5].body.setOptionsOp.lowThreshold._present: false
+tx.operations[5].body.setOptionsOp.medThreshold._present: false
+tx.operations[5].body.setOptionsOp.highThreshold._present: false
+tx.operations[5].body.setOptionsOp.homeDomain._present: true
+tx.operations[5].body.setOptionsOp.homeDomain: "stellarcn.org"
+tx.operations[5].body.setOptionsOp.signer._present: false
+tx.operations[6].sourceAccount._present: false
+tx.operations[6].body.type: SET_OPTIONS
+tx.operations[6].body.setOptionsOp.inflationDest._present: false
+tx.operations[6].body.setOptionsOp.clearFlags._present: false
+tx.operations[6].body.setOptionsOp.setFlags._present: false
+tx.operations[6].body.setOptionsOp.masterWeight._present: false
+tx.operations[6].body.setOptionsOp.lowThreshold._present: false
+tx.operations[6].body.setOptionsOp.medThreshold._present: false
+tx.operations[6].body.setOptionsOp.highThreshold._present: false
+tx.operations[6].body.setOptionsOp.homeDomain._present: false
+tx.operations[6].body.setOptionsOp.signer._present: true
+tx.operations[6].body.setOptionsOp.signer.key: TAFLBR3LDRTB3MHIFGV73WPDFZWOHQI7OVV564NKEOCGLAQQNQLYGM4E
+tx.operations[6].body.setOptionsOp.signer.weight: 5
+tx.operations[7].sourceAccount._present: false
+tx.operations[7].body.type: SET_OPTIONS
+tx.operations[7].body.setOptionsOp.inflationDest._present: false
+tx.operations[7].body.setOptionsOp.clearFlags._present: false
+tx.operations[7].body.setOptionsOp.setFlags._present: false
+tx.operations[7].body.setOptionsOp.masterWeight._present: false
+tx.operations[7].body.setOptionsOp.lowThreshold._present: false
+tx.operations[7].body.setOptionsOp.medThreshold._present: false
+tx.operations[7].body.setOptionsOp.highThreshold._present: false
+tx.operations[7].body.setOptionsOp.homeDomain._present: false
+tx.operations[7].body.setOptionsOp.signer._present: true
+tx.operations[7].body.setOptionsOp.signer.key: XAGWJ6WFK3AVIVQWWPERLJHMEFJDSUALZYUHAB6P6A4LMAQJKCXUMWYO
+tx.operations[7].body.setOptionsOp.signer.weight: 10
+tx.operations[8].sourceAccount._present: true
+tx.operations[8].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[8].body.type: CHANGE_TRUST
+tx.operations[8].body.changeTrustOp.line.type: ASSET_TYPE_CREDIT_ALPHANUM4
+tx.operations[8].body.changeTrustOp.line: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[8].body.changeTrustOp.limit: 10000000000 (1000)
+tx.operations[9].sourceAccount._present: true
+tx.operations[9].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[9].body.type: ALLOW_TRUST
+tx.operations[9].body.allowTrustOp.trustor: GDU64QWPRTO3LW5VGZPTLRR6QROFWV36XG5QT4C6FZBPHQBBFYRCWZTZ
+tx.operations[9].body.allowTrustOp.asset: CAT
+tx.operations[9].body.allowTrustOp.authorize: true
+tx.operations[10].sourceAccount._present: true
+tx.operations[10].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[10].body.type: ACCOUNT_MERGE
+tx.operations[10].body.destination: GDU64QWPRTO3LW5VGZPTLRR6QROFWV36XG5QT4C6FZBPHQBBFYRCWZTZ
+tx.operations[11].sourceAccount._present: true
+tx.operations[11].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[11].body.type: MANAGE_DATA
+tx.operations[11].body.manageDataOp.dataName: "Hello"
+tx.operations[11].body.manageDataOp.dataValue._present: true
+tx.operations[11].body.manageDataOp.dataValue: 5374656c6c6172
+tx.operations[12].sourceAccount._present: true
+tx.operations[12].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[12].body.type: MANAGE_DATA
+tx.operations[12].body.manageDataOp.dataName: "World"
+tx.operations[12].body.manageDataOp.dataValue._present: false
+tx.operations[13].sourceAccount._present: true
+tx.operations[13].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[13].body.type: BUMP_SEQUENCE
+tx.operations[13].body.bumpSequenceOp.bumpTo: 46489056724385800
+tx.operations[14].sourceAccount._present: true
+tx.operations[14].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[14].body.type: MANAGE_BUY_OFFER
+tx.operations[14].body.manageBuyOfferOp.selling: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[14].body.manageBuyOfferOp.buying: USD:GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[14].body.manageBuyOfferOp.buyAmount: 1001230000 (100.123)
+tx.operations[14].body.manageBuyOfferOp.price.n: 71
+tx.operations[14].body.manageBuyOfferOp.price.d: 10
+tx.operations[14].body.manageBuyOfferOp.offerID: 0
+tx.operations[15].sourceAccount._present: true
+tx.operations[15].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[15].body.type: PATH_PAYMENT_STRICT_SEND
+tx.operations[15].body.pathPaymentStrictSendOp.sendAsset: USD:GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[15].body.pathPaymentStrictSendOp.sendAmount: 100000000 (10)
+tx.operations[15].body.pathPaymentStrictSendOp.destination: GBAF6NXN3DHSF357QBZLTBNWUTABKUODJXJYYE32ZDKA2QBM2H33IK6O
+tx.operations[15].body.pathPaymentStrictSendOp.destAsset: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[15].body.pathPaymentStrictSendOp.destMin: 51250000 (5.125)
+tx.operations[15].body.pathPaymentStrictSendOp.path.len: 3
+tx.operations[15].body.pathPaymentStrictSendOp.path[0]: Hello:GD3RXMK2GHSXXEHPBZY5IL7VW5BXQEDJMCD4KVMXOH2GRFKDGZXR5PFO
+tx.operations[15].body.pathPaymentStrictSendOp.path[1]: native
+tx.operations[15].body.pathPaymentStrictSendOp.path[2]: MOEW:GBR765FQTCAJLLJGZVYLXCFAOZI6ORTHPDPOOHJOHFRZ5GHNVYGK4IFM
+tx.operations[16].sourceAccount._present: false
+tx.operations[16].body.type: INFLATION
+tx.operations[17].sourceAccount._present: true
+tx.operations[17].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[17].body.type: CREATE_CLAIMABLE_BALANCE
+tx.operations[17].body.createClaimableBalanceOp.asset: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[17].body.createClaimableBalanceOp.amount: 100005670000 (10000.567)
+tx.operations[17].body.createClaimableBalanceOp.claimants.len: 2
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].type: CLAIMANT_TYPE_V0
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.destination: GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.type: CLAIM_PREDICATE_AND
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates.len: 2
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].type: CLAIM_PREDICATE_AND
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].andPredicates.len: 2
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].andPredicates[0].type: CLAIM_PREDICATE_AND
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].andPredicates[0].andPredicates.len: 2
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].andPredicates[0].andPredicates[0].type: CLAIM_PREDICATE_BEFORE_RELATIVE_TIME
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].andPredicates[0].andPredicates[0].relBefore: 40000 (1970-01-01 11:06:40.000000+00:00 (UTC))
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].andPredicates[0].andPredicates[1].type: CLAIM_PREDICATE_NOT
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].andPredicates[0].andPredicates[1].notPredicate.type: CLAIM_PREDICATE_BEFORE_RELATIVE_TIME
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].andPredicates[0].andPredicates[1].notPredicate.relBefore: 50000 (1970-01-01 13:53:20.000000+00:00 (UTC))
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].andPredicates[1].type: CLAIM_PREDICATE_BEFORE_RELATIVE_TIME
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[0].andPredicates[1].relBefore: 30000 (1970-01-01 08:20:00.000000+00:00 (UTC))
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[1].type: CLAIM_PREDICATE_OR
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[1].orPredicates.len: 2
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[1].orPredicates[0].type: CLAIM_PREDICATE_NOT
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[1].orPredicates[0].notPredicate.type: CLAIM_PREDICATE_BEFORE_RELATIVE_TIME
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[1].orPredicates[0].notPredicate.relBefore: 10000 (1970-01-01 02:46:40.000000+00:00 (UTC))
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[1].orPredicates[1].type: CLAIM_PREDICATE_BEFORE_ABSOLUTE_TIME
+tx.operations[17].body.createClaimableBalanceOp.claimants[0].v0.predicate.andPredicates[1].orPredicates[1].absBefore: 20000 (1970-01-01 05:33:20.000000+00:00 (UTC))
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].type: CLAIMANT_TYPE_V0
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.destination: GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.type: CLAIM_PREDICATE_AND
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates.len: 2
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].type: CLAIM_PREDICATE_AND
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].andPredicates.len: 2
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].andPredicates[0].type: CLAIM_PREDICATE_AND
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].andPredicates[0].andPredicates.len: 2
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].andPredicates[0].andPredicates[0].type: CLAIM_PREDICATE_BEFORE_RELATIVE_TIME
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].andPredicates[0].andPredicates[0].relBefore: 40000 (1970-01-01 11:06:40.000000+00:00 (UTC))
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].andPredicates[0].andPredicates[1].type: CLAIM_PREDICATE_NOT
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].andPredicates[0].andPredicates[1].notPredicate.type: CLAIM_PREDICATE_BEFORE_RELATIVE_TIME
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].andPredicates[0].andPredicates[1].notPredicate.relBefore: 50000 (1970-01-01 13:53:20.000000+00:00 (UTC))
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].andPredicates[1].type: CLAIM_PREDICATE_BEFORE_RELATIVE_TIME
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[0].andPredicates[1].relBefore: 30000 (1970-01-01 08:20:00.000000+00:00 (UTC))
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[1].type: CLAIM_PREDICATE_OR
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[1].orPredicates.len: 2
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[1].orPredicates[0].type: CLAIM_PREDICATE_NOT
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[1].orPredicates[0].notPredicate.type: CLAIM_PREDICATE_BEFORE_RELATIVE_TIME
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[1].orPredicates[0].notPredicate.relBefore: 10000 (1970-01-01 02:46:40.000000+00:00 (UTC))
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[1].orPredicates[1].type: CLAIM_PREDICATE_BEFORE_ABSOLUTE_TIME
+tx.operations[17].body.createClaimableBalanceOp.claimants[1].v0.predicate.andPredicates[1].orPredicates[1].absBefore: 20000 (1970-01-01 05:33:20.000000+00:00 (UTC))
+tx.operations[18].sourceAccount._present: true
+tx.operations[18].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[18].body.type: CLAIM_CLAIMABLE_BALANCE
+tx.operations[18].body.claimClaimableBalanceOp.balanceID: 00000000da0d57da7d4850e7fc10d2a9d0ebc731f7afb40574c03395b17d49149b91f5be
+tx.operations[19].sourceAccount._present: true
+tx.operations[19].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[19].body.type: BEGIN_SPONSORING_FUTURE_RESERVES
+tx.operations[19].body.beginSponsoringFutureReservesOp.sponsoredID: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[20].sourceAccount._present: true
+tx.operations[20].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[20].body.type: CREATE_ACCOUNT
+tx.operations[20].body.createAccountOp.destination: GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[20].body.createAccountOp.startingBalance: 100000000 (10)
+tx.operations[21].sourceAccount._present: true
+tx.operations[21].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[21].body.type: END_SPONSORING_FUTURE_RESERVES
+tx.operations[22].sourceAccount._present: true
+tx.operations[22].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[22].body.type: REVOKE_SPONSORSHIP
+tx.operations[22].body.revokeSponsorshipOp.type: REVOKE_SPONSORSHIP_SIGNER
+tx.operations[22].body.revokeSponsorshipOp.signer.accountID: GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[22].body.revokeSponsorshipOp.signer.signerKey.type: SIGNER_KEY_TYPE_ED25519
+tx.operations[22].body.revokeSponsorshipOp.signer.signerKey.ed25519: GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[23].sourceAccount._present: true
+tx.operations[23].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[23].body.type: REVOKE_SPONSORSHIP
+tx.operations[23].body.revokeSponsorshipOp.type: REVOKE_SPONSORSHIP_SIGNER
+tx.operations[23].body.revokeSponsorshipOp.signer.accountID: GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[23].body.revokeSponsorshipOp.signer.signerKey.type: SIGNER_KEY_TYPE_HASH_X
+tx.operations[23].body.revokeSponsorshipOp.signer.signerKey.hashX: XAGWJ6WFK3AVIVQWWPERLJHMEFJDSUALZYUHAB6P6A4LMAQJKCXUMWYO
+tx.operations[24].sourceAccount._present: true
+tx.operations[24].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[24].body.type: REVOKE_SPONSORSHIP
+tx.operations[24].body.revokeSponsorshipOp.type: REVOKE_SPONSORSHIP_SIGNER
+tx.operations[24].body.revokeSponsorshipOp.signer.accountID: GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[24].body.revokeSponsorshipOp.signer.signerKey.type: SIGNER_KEY_TYPE_PRE_AUTH_TX
+tx.operations[24].body.revokeSponsorshipOp.signer.signerKey.preAuthTx: TAFLBR3LDRTB3MHIFGV73WPDFZWOHQI7OVV564NKEOCGLAQQNQLYGM4E
+tx.operations[25].sourceAccount._present: true
+tx.operations[25].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[25].body.type: REVOKE_SPONSORSHIP
+tx.operations[25].body.revokeSponsorshipOp.type: REVOKE_SPONSORSHIP_SIGNER
+tx.operations[25].body.revokeSponsorshipOp.signer.accountID: GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[25].body.revokeSponsorshipOp.signer.signerKey.type: SIGNER_KEY_TYPE_ED25519
+tx.operations[25].body.revokeSponsorshipOp.signer.signerKey.ed25519: GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[26].sourceAccount._present: true
+tx.operations[26].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[26].body.type: REVOKE_SPONSORSHIP
+tx.operations[26].body.revokeSponsorshipOp.type: REVOKE_SPONSORSHIP_LEDGER_ENTRY
+tx.operations[26].body.revokeSponsorshipOp.ledgerKey.type: ACCOUNT
+tx.operations[26].body.revokeSponsorshipOp.ledgerKey.account: GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[27].sourceAccount._present: true
+tx.operations[27].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[27].body.type: REVOKE_SPONSORSHIP
+tx.operations[27].body.revokeSponsorshipOp.type: REVOKE_SPONSORSHIP_LEDGER_ENTRY
+tx.operations[27].body.revokeSponsorshipOp.ledgerKey.type: DATA
+tx.operations[27].body.revokeSponsorshipOp.ledgerKey.data.accountID: GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[27].body.revokeSponsorshipOp.ledgerKey.data.dataName: hello
+tx.operations[28].sourceAccount._present: true
+tx.operations[28].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[28].body.type: REVOKE_SPONSORSHIP
+tx.operations[28].body.revokeSponsorshipOp.type: REVOKE_SPONSORSHIP_LEDGER_ENTRY
+tx.operations[28].body.revokeSponsorshipOp.ledgerKey.type: OFFER
+tx.operations[28].body.revokeSponsorshipOp.ledgerKey.offer.sellerID: GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[28].body.revokeSponsorshipOp.ledgerKey.offer.offerID: 99876
+tx.operations[29].sourceAccount._present: true
+tx.operations[29].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[29].body.type: REVOKE_SPONSORSHIP
+tx.operations[29].body.revokeSponsorshipOp.type: REVOKE_SPONSORSHIP_LEDGER_ENTRY
+tx.operations[29].body.revokeSponsorshipOp.ledgerKey.type: TRUSTLINE
+tx.operations[29].body.revokeSponsorshipOp.ledgerKey.trustLine.accountID: GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[29].body.revokeSponsorshipOp.ledgerKey.trustLine.asset: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[30].sourceAccount._present: true
+tx.operations[30].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[30].body.type: REVOKE_SPONSORSHIP
+tx.operations[30].body.revokeSponsorshipOp.type: REVOKE_SPONSORSHIP_LEDGER_ENTRY
+tx.operations[30].body.revokeSponsorshipOp.ledgerKey.type: CLAIMABLE_BALANCE
+tx.operations[30].body.revokeSponsorshipOp.ledgerKey.claimableBalance.balanceID: 00000000da0d57da7d4850e7fc10d2a9d0ebc731f7afb40574c03395b17d49149b91f5be
+tx.operations[31].sourceAccount._present: true
+tx.operations[31].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[31].body.type: CLAWBACK
+tx.operations[31].body.clawbackOp.asset: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[31].body.clawbackOp.from: GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[31].body.clawbackOp.amount: 12345678000 (1234.5678)
+tx.operations[32].sourceAccount._present: true
+tx.operations[32].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[32].body.type: CLAWBACK_CLAIMABLE_BALANCE
+tx.operations[32].body.clawbackClaimableBalanceOp.balanceID: 00000000da0d57da7d4850e7fc10d2a9d0ebc731f7afb40574c03395b17d49149b91f5be
+tx.operations[33].sourceAccount._present: true
+tx.operations[33].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[33].body.type: SET_TRUST_LINE_FLAGS
+tx.operations[33].body.setTrustLineFlagsOp.trustor: GAZFEVBSEGJJ63WPVVIWXLZLWN2JYZECECGT6GUNP4FJDVZVNXWQWMYI
+tx.operations[33].body.setTrustLineFlagsOp.asset: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[33].body.setTrustLineFlagsOp.clearFlags: 4
+tx.operations[33].body.setTrustLineFlagsOp.setFlags: 3
+tx.operations[34].sourceAccount._present: true
+tx.operations[34].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[34].body.type: SET_TRUST_LINE_FLAGS
+tx.operations[34].body.setTrustLineFlagsOp.trustor: GDUF4TESKD5H47VB6KRWIYX7CL4TADDB2QJALCFHPIZLCGFMNTRVX4HM
+tx.operations[34].body.setTrustLineFlagsOp.asset: XCN:GAYE5SDEM5JIEMGQ7LBMQVRQRVJB6A5E7AZVLJYFL3CNHLZX24DFD35F
+tx.operations[34].body.setTrustLineFlagsOp.clearFlags: 0
+tx.operations[34].body.setTrustLineFlagsOp.setFlags: 0
+tx.operations[35].sourceAccount._present: true
+tx.operations[35].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[35].body.type: LIQUIDITY_POOL_DEPOSIT
+tx.operations[35].body.liquidityPoolDepositOp.liquidityPoolID: dd7b1ab831c273310ddbec6f97870aa83c2fbd78ce22aded37ecbf4f3380fac7
+tx.operations[35].body.liquidityPoolDepositOp.maxAmountA: 100000000 (10)
+tx.operations[35].body.liquidityPoolDepositOp.maxAmountB: 200000000 (20)
+tx.operations[35].body.liquidityPoolDepositOp.minPrice.n: 9
+tx.operations[35].body.liquidityPoolDepositOp.minPrice.d: 20
+tx.operations[35].body.liquidityPoolDepositOp.maxPrice.n: 11
+tx.operations[35].body.liquidityPoolDepositOp.maxPrice.d: 20
+tx.operations[36].sourceAccount._present: true
+tx.operations[36].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[36].body.type: LIQUIDITY_POOL_WITHDRAW
+tx.operations[36].body.liquidityPoolWithdrawOp.liquidityPoolID: dd7b1ab831c273310ddbec6f97870aa83c2fbd78ce22aded37ecbf4f3380fac7
+tx.operations[36].body.liquidityPoolWithdrawOp.amount: 50000000 (5)
+tx.operations[36].body.liquidityPoolWithdrawOp.minAmountA: 100000000 (10)
+tx.operations[36].body.liquidityPoolWithdrawOp.minAmountB: 200000000 (20)
+tx.operations[37].sourceAccount._present: true
+tx.operations[37].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[37].body.type: REVOKE_SPONSORSHIP
+tx.operations[37].body.revokeSponsorshipOp.type: REVOKE_SPONSORSHIP_LEDGER_ENTRY
+tx.operations[37].body.revokeSponsorshipOp.ledgerKey.type: LIQUIDITY_POOL
+tx.operations[37].body.revokeSponsorshipOp.ledgerKey.liquidityPool.liquidityPoolID: dd7b1ab831c273310ddbec6f97870aa83c2fbd78ce22aded37ecbf4f3380fac7
+tx.operations[38].sourceAccount._present: true
+tx.operations[38].sourceAccount: GBEFNJVA2347XAJ4HYAECN5S7DIMLRDKXYT7BSFGF6SDM4VH5TD5HGJB
+tx.operations[38].body.type: CHANGE_TRUST
+tx.operations[38].body.changeTrustOp.line.type: ASSET_TYPE_POOL_SHARE
+tx.operations[38].body.changeTrustOp.line.liquidityPool.constantProduct.assetA: ARST:GB7TAYRUZGE6TVT7NHP5SMIZRNQA6PLM423EYISAOAP3MKYIQMVYP2JO
+tx.operations[38].body.changeTrustOp.line.liquidityPool.constantProduct.assetB: USD:GCEZWKCA5VLDNRLN3RPRJMRZOX3Z6G5CHCGSNFHEYVXM3XOJMDS674JZ
+tx.operations[38].body.changeTrustOp.line.liquidityPool.constantProduct.fee: 30
+tx.operations[38].body.changeTrustOp.limit: 100000000000 (10000)
+tx.ext.v: 0
+signatures.len: 2
+signatures[0].hint: a7ecc7d3
+signatures[0].signature: 73e77a746fa2642e533b0d19f51395ff0345a25b317cd3e11b7f588a8bf27813c287a05605a47070bcbbe50bff416280763e4d0739645cba2ced0379ca29220e
+signatures[1].hint: 21d0289a
+signatures[1].signature: 8b73f9e12fcc8cd9580a2a26aec14d6175aa1ff45e76b816618635d03f3256b8
